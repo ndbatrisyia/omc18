@@ -257,7 +257,7 @@ Partial Class Form6
         Me.TextBox3.Location = New System.Drawing.Point(9, 149)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(414, 29)
+        Me.TextBox3.Size = New System.Drawing.Size(377, 29)
         Me.TextBox3.TabIndex = 16
         '
         'TextBox2
