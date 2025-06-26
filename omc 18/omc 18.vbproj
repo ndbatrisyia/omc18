@@ -296,5 +296,65 @@
   <ItemGroup>
     <None Include="Resources\download__2_-removebg-preview %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__6_-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receiptify.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinggan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %287%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%40pngswan on ig.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinggan-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%40caffeinatedfailure.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tulips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rama-rama purple %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bunga purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rama-rama_purple__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bintang purple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flowers-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__8_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__9_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flower kot.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IBISCUS - le renard argenté.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flower again.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\039f9447-ffe3-4103-9459-2231456e5b50.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2810%29.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
