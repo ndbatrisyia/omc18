@@ -24,6 +24,8 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.btnSignUser = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -42,20 +44,47 @@ Partial Class Form2
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Atelier"
         '
+        'btnSignUser
+        '
+        Me.btnSignUser.BackColor = System.Drawing.Color.LavenderBlush
+        Me.btnSignUser.ForeColor = System.Drawing.Color.Coral
+        Me.btnSignUser.Location = New System.Drawing.Point(83, 390)
+        Me.btnSignUser.Name = "btnSignUser"
+        Me.btnSignUser.Size = New System.Drawing.Size(274, 44)
+        Me.btnSignUser.TabIndex = 7
+        Me.btnSignUser.Text = "Sign in as User"
+        Me.btnSignUser.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.GhostWhite
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Button1.Location = New System.Drawing.Point(83, 463)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(274, 44)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "Sign in as Admin"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(386, 809)
+        Me.ClientSize = New System.Drawing.Size(440, 809)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnSignUser)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "Form 2"
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents btnSignUser As Button
+    Friend WithEvents Button1 As Button
 End Class
