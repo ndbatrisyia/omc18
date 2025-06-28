@@ -374,5 +374,14 @@
   <ItemGroup>
     <None Include="Resources\pink_key-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple_lock_icon-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink_email-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple_key_icon-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
