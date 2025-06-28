@@ -47,7 +47,7 @@ Partial Class Form2
         'btnSignUser
         '
         Me.btnSignUser.BackColor = System.Drawing.Color.LavenderBlush
-        Me.btnSignUser.ForeColor = System.Drawing.Color.Coral
+        Me.btnSignUser.ForeColor = System.Drawing.Color.Maroon
         Me.btnSignUser.Location = New System.Drawing.Point(83, 390)
         Me.btnSignUser.Name = "btnSignUser"
         Me.btnSignUser.Size = New System.Drawing.Size(274, 44)
