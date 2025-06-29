@@ -26,5 +26,29 @@
         Me.Hide()
     End Sub
 
+    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+    End Sub
+
+    Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub PictureBox4_Click_1(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+
+    End Sub
+
 
 End Class
