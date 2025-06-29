@@ -24,14 +24,14 @@ Partial Class Form4
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtEmailAddress = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.txtProfileName = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.lblSignUp = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnRegister = New System.Windows.Forms.Button()
@@ -60,7 +60,7 @@ Partial Class Form4
         Me.Panel1.Controls.Add(Me.TextBox5)
         Me.Panel1.Controls.Add(Me.PictureBox4)
         Me.Panel1.Controls.Add(Me.TextBox6)
-        Me.Panel1.Controls.Add(Me.TextBox2)
+        Me.Panel1.Controls.Add(Me.txtEmailAddress)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.TextBox4)
         Me.Panel1.Controls.Add(Me.txtPassword)
@@ -74,17 +74,72 @@ Partial Class Form4
         Me.Panel1.Size = New System.Drawing.Size(440, 346)
         Me.Panel1.TabIndex = 10
         '
+        'TextBox5
+        '
+        Me.TextBox5.BackColor = System.Drawing.Color.GhostWhite
+        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox5.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Yi Baiti", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.TextBox5.Location = New System.Drawing.Point(105, 249)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(271, 29)
+        Me.TextBox5.TabIndex = 15
+        Me.TextBox5.Text = "Confirm Password"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.BackColor = System.Drawing.Color.GhostWhite
+        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox6.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TextBox6.Enabled = False
+        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.ForeColor = System.Drawing.SystemColors.InfoText
+        Me.TextBox6.Location = New System.Drawing.Point(58, 249)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.ReadOnly = True
+        Me.TextBox6.Size = New System.Drawing.Size(318, 41)
+        Me.TextBox6.TabIndex = 14
+        '
+        'txtEmailAddress
+        '
+        Me.txtEmailAddress.BackColor = System.Drawing.Color.LavenderBlush
+        Me.txtEmailAddress.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtEmailAddress.Cursor = System.Windows.Forms.Cursors.Default
+        Me.txtEmailAddress.Font = New System.Drawing.Font("Microsoft Yi Baiti", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEmailAddress.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.txtEmailAddress.Location = New System.Drawing.Point(105, 116)
+        Me.txtEmailAddress.Name = "txtEmailAddress"
+        Me.txtEmailAddress.Size = New System.Drawing.Size(271, 29)
+        Me.txtEmailAddress.TabIndex = 12
+        Me.txtEmailAddress.Text = "Email address"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BackColor = System.Drawing.Color.LavenderBlush
+        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox4.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TextBox4.Enabled = False
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.ForeColor = System.Drawing.SystemColors.InfoText
+        Me.TextBox4.Location = New System.Drawing.Point(58, 114)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
+        Me.TextBox4.Size = New System.Drawing.Size(318, 41)
+        Me.TextBox4.TabIndex = 11
+        '
         'txtPassword
         '
         Me.txtPassword.BackColor = System.Drawing.Color.GhostWhite
         Me.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtPassword.Cursor = System.Windows.Forms.Cursors.Default
-        Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.ForeColor = System.Drawing.SystemColors.InfoText
-        Me.txtPassword.Location = New System.Drawing.Point(105, 192)
+        Me.txtPassword.Font = New System.Drawing.Font("Microsoft Yi Baiti", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.txtPassword.Location = New System.Drawing.Point(105, 182)
         Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(271, 28)
+        Me.txtPassword.Size = New System.Drawing.Size(271, 29)
         Me.txtPassword.TabIndex = 9
+        Me.txtPassword.Text = "Password"
         '
         'TextBox3
         '
@@ -105,12 +160,13 @@ Partial Class Form4
         Me.txtProfileName.BackColor = System.Drawing.Color.LavenderBlush
         Me.txtProfileName.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtProfileName.Cursor = System.Windows.Forms.Cursors.Default
-        Me.txtProfileName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtProfileName.ForeColor = System.Drawing.SystemColors.InfoText
-        Me.txtProfileName.Location = New System.Drawing.Point(105, 55)
+        Me.txtProfileName.Font = New System.Drawing.Font("Microsoft Yi Baiti", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtProfileName.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.txtProfileName.Location = New System.Drawing.Point(105, 45)
         Me.txtProfileName.Name = "txtProfileName"
-        Me.txtProfileName.Size = New System.Drawing.Size(271, 28)
+        Me.txtProfileName.Size = New System.Drawing.Size(271, 29)
         Me.txtProfileName.TabIndex = 5
+        Me.txtProfileName.Text = "Full name"
         '
         'TextBox1
         '
@@ -125,58 +181,6 @@ Partial Class Form4
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(318, 41)
         Me.TextBox1.TabIndex = 4
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.LavenderBlush
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.ForeColor = System.Drawing.SystemColors.InfoText
-        Me.TextBox2.Location = New System.Drawing.Point(105, 124)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(271, 28)
-        Me.TextBox2.TabIndex = 12
-        '
-        'TextBox4
-        '
-        Me.TextBox4.BackColor = System.Drawing.Color.LavenderBlush
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox4.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TextBox4.Enabled = False
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.ForeColor = System.Drawing.SystemColors.InfoText
-        Me.TextBox4.Location = New System.Drawing.Point(58, 114)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(318, 41)
-        Me.TextBox4.TabIndex = 11
-        '
-        'TextBox5
-        '
-        Me.TextBox5.BackColor = System.Drawing.Color.GhostWhite
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox5.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.ForeColor = System.Drawing.SystemColors.InfoText
-        Me.TextBox5.Location = New System.Drawing.Point(105, 259)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(271, 28)
-        Me.TextBox5.TabIndex = 15
-        '
-        'TextBox6
-        '
-        Me.TextBox6.BackColor = System.Drawing.Color.GhostWhite
-        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox6.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TextBox6.Enabled = False
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.ForeColor = System.Drawing.SystemColors.InfoText
-        Me.TextBox6.Location = New System.Drawing.Point(58, 249)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.ReadOnly = True
-        Me.TextBox6.Size = New System.Drawing.Size(318, 41)
-        Me.TextBox6.TabIndex = 14
         '
         'lblSignUp
         '
@@ -199,12 +203,13 @@ Partial Class Form4
         '
         'btnRegister
         '
+        Me.btnRegister.BackColor = System.Drawing.Color.Ivory
         Me.btnRegister.Location = New System.Drawing.Point(52, 647)
         Me.btnRegister.Name = "btnRegister"
         Me.btnRegister.Size = New System.Drawing.Size(356, 40)
         Me.btnRegister.TabIndex = 13
         Me.btnRegister.Text = "Register"
-        Me.btnRegister.UseVisualStyleBackColor = True
+        Me.btnRegister.UseVisualStyleBackColor = False
         '
         'PictureBox4
         '
@@ -262,7 +267,7 @@ Partial Class Form4
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form4"
         Me.Text = "Form4"
         Me.Panel1.ResumeLayout(False)
@@ -281,7 +286,7 @@ Partial Class Form4
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtEmailAddress As TextBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents txtPassword As TextBox
