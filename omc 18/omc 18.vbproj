@@ -93,7 +93,9 @@
     <Compile Include="LogInForms\Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
-    <Compile Include="LogInForms\Form2.vb" />
+    <Compile Include="LogInForms\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LogInForms\Form3.Designer.vb">
       <DependentUpon>Form3.vb</DependentUpon>
     </Compile>
