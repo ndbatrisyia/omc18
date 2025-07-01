@@ -111,7 +111,7 @@ Partial Class Form2
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.omc_18.My.Resources.Resources.girl_1_removebg_preview
-        Me.PictureBox1.Location = New System.Drawing.Point(188, 11)
+        Me.PictureBox1.Location = New System.Drawing.Point(264, 29)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(140, 155)
