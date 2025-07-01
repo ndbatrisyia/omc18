@@ -167,6 +167,9 @@
     <EmbeddedResource Include="LogInForms\Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LogInForms\Form9.resx">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PaymentForms\Form5.resx">
       <DependentUpon>Form5.vb</DependentUpon>
     </EmbeddedResource>

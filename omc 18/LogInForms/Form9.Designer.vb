@@ -22,9 +22,20 @@ Partial Class Form9
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
+        Me.SuspendLayout()
+        '
+        'Form9
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DarkGray
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Name = "Form9"
         Me.Text = "Form9"
+        Me.ResumeLayout(False)
+
     End Sub
+
+    Friend WithEvents ColorDialog1 As ColorDialog
 End Class
