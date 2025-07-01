@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9643A610-7E97-4977-AF5E-F66E5663343A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>omc_18.Form10</StartupObject>
+    <StartupObject>omc_18.Form2</StartupObject>
     <RootNamespace>omc_18</RootNamespace>
     <AssemblyName>omc 18</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -93,9 +93,7 @@
     <Compile Include="LogInForms\Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
-    <Compile Include="LogInForms\Form2.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="LogInForms\Form2.vb" />
     <Compile Include="LogInForms\Form3.Designer.vb">
       <DependentUpon>Form3.vb</DependentUpon>
     </Compile>
