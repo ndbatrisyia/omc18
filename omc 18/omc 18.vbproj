@@ -470,5 +470,9 @@
   <ItemGroup>
     <None Include="Resources\arrow kanan.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
+    <Folder Include="Seller%27s Verification\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
