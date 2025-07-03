@@ -64,7 +64,7 @@ Partial Class Form9
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form9"
-        Me.Text = "Form9"
+        Me.Text = " "
         Me.ResumeLayout(False)
 
     End Sub
