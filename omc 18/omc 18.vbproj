@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9643A610-7E97-4977-AF5E-F66E5663343A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>omc_18.Form2</StartupObject>
+    <StartupObject>omc_18.Form11</StartupObject>
     <RootNamespace>omc_18</RootNamespace>
     <AssemblyName>omc 18</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -150,6 +150,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Profile\Form11.Designer.vb">
+      <DependentUpon>Form11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Form11.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="LogInForms\Form1.resx">
@@ -187,6 +193,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\Form11.resx">
+      <DependentUpon>Form11.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
