@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9643A610-7E97-4977-AF5E-F66E5663343A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>omc_18.Form7</StartupObject>
+    <StartupObject>omc_18.Form15</StartupObject>
     <RootNamespace>omc_18</RootNamespace>
     <AssemblyName>omc 18</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -156,6 +156,12 @@
     <Compile Include="Profile\Form11.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Profile\Form15.Designer.vb">
+      <DependentUpon>Form15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Form15.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Seller%27s Profile %281%29\Form12.Designer.vb">
       <DependentUpon>Form12.vb</DependentUpon>
     </Compile>
@@ -214,6 +220,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Profile\Form11.resx">
       <DependentUpon>Form11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile\Form15.resx">
+      <DependentUpon>Form15.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Seller%27s Profile %281%29\Form12.resx">
       <DependentUpon>Form12.vb</DependentUpon>
