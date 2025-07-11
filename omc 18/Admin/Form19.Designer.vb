@@ -38,6 +38,7 @@ Partial Class Form19
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.Thistle
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
@@ -49,52 +50,53 @@ Partial Class Form19
         'AdminToolStripMenuItem
         '
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 26)
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
         Me.AdminToolStripMenuItem.Text = "&Admin"
         '
         'DashboardToolStripMenuItem
         '
         Me.DashboardToolStripMenuItem.Name = "DashboardToolStripMenuItem"
-        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 26)
+        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 24)
         Me.DashboardToolStripMenuItem.Text = "&Dashboard"
         '
         'UsersToolStripMenuItem
         '
         Me.UsersToolStripMenuItem.Name = "UsersToolStripMenuItem"
-        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 26)
+        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
         Me.UsersToolStripMenuItem.Text = "&Users"
         '
         'SellersToolStripMenuItem
         '
         Me.SellersToolStripMenuItem.Name = "SellersToolStripMenuItem"
-        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 26)
+        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 24)
         Me.SellersToolStripMenuItem.Text = "&Sellers"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(80, 26)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(80, 24)
         Me.ToolStripMenuItem1.Text = "&Products"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Thistle
         Me.Label1.Location = New System.Drawing.Point(28, 69)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(72, 27)
+        Me.Label1.Size = New System.Drawing.Size(79, 27)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Sellers"
         '
         'btnRejected
         '
+        Me.btnRejected.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnRejected.Location = New System.Drawing.Point(833, 72)
         Me.btnRejected.Name = "btnRejected"
         Me.btnRejected.Size = New System.Drawing.Size(89, 29)
         Me.btnRejected.TabIndex = 4
         Me.btnRejected.Text = "Rejected"
-        Me.btnRejected.UseVisualStyleBackColor = True
+        Me.btnRejected.UseVisualStyleBackColor = False
         '
         'btnAll
         '
@@ -109,26 +111,29 @@ Partial Class Form19
         '
         'btnVerified
         '
+        Me.btnVerified.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnVerified.Location = New System.Drawing.Point(661, 72)
         Me.btnVerified.Name = "btnVerified"
         Me.btnVerified.Size = New System.Drawing.Size(89, 29)
         Me.btnVerified.TabIndex = 7
         Me.btnVerified.Text = "Verified"
-        Me.btnVerified.UseVisualStyleBackColor = True
+        Me.btnVerified.UseVisualStyleBackColor = False
         '
         'btnPending
         '
+        Me.btnPending.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnPending.Location = New System.Drawing.Point(747, 72)
         Me.btnPending.Name = "btnPending"
         Me.btnPending.Size = New System.Drawing.Size(89, 29)
         Me.btnPending.TabIndex = 8
         Me.btnPending.Text = "Pending"
-        Me.btnPending.UseVisualStyleBackColor = True
+        Me.btnPending.UseVisualStyleBackColor = False
         '
         'Form19
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(965, 545)
         Me.Controls.Add(Me.btnPending)
         Me.Controls.Add(Me.btnVerified)

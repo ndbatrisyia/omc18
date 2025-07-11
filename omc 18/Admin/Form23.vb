@@ -23,4 +23,18 @@
         Me.Hide()
 
     End Sub
+
+    Private Sub btnAll_Click(sender As Object, e As EventArgs) Handles btnAll.Click
+        Me.Show()
+    End Sub
+
+    Private Sub btnInStock_Click(sender As Object, e As EventArgs) Handles btnInStock.Click
+        Form25.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnOutofStock_Click(sender As Object, e As EventArgs) Handles btnOutofStock.Click
+        Form24.Show()
+        Me.Hide()
+    End Sub
 End Class
