@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9643A610-7E97-4977-AF5E-F66E5663343A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>omc_18.Form4</StartupObject>
+    <StartupObject>omc_18.Form16</StartupObject>
     <RootNamespace>omc_18</RootNamespace>
     <AssemblyName>omc 18</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -123,6 +123,18 @@
       <DependentUpon>Form23.vb</DependentUpon>
     </Compile>
     <Compile Include="Admin\Form23.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form24.Designer.vb">
+      <DependentUpon>Form24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form24.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form25.Designer.vb">
+      <DependentUpon>Form25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form25.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LogInForms\Form1.vb">
@@ -253,6 +265,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Form23.resx">
       <DependentUpon>Form23.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Form24.resx">
+      <DependentUpon>Form24.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Form25.resx">
+      <DependentUpon>Form25.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogInForms\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
