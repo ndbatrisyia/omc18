@@ -35,6 +35,7 @@ Partial Class Form17
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -43,7 +44,10 @@ Partial Class Form17
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
@@ -51,6 +55,10 @@ Partial Class Form17
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel6.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -67,31 +75,31 @@ Partial Class Form17
         'AdminToolStripMenuItem
         '
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(71, 24)
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(71, 26)
         Me.AdminToolStripMenuItem.Text = "&Admin "
         '
         'DashboardToolStripMenuItem
         '
         Me.DashboardToolStripMenuItem.Name = "DashboardToolStripMenuItem"
-        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 24)
+        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 26)
         Me.DashboardToolStripMenuItem.Text = "&Dashboard"
         '
         'UsersToolStripMenuItem
         '
         Me.UsersToolStripMenuItem.Name = "UsersToolStripMenuItem"
-        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
+        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 26)
         Me.UsersToolStripMenuItem.Text = "&Users"
         '
         'SellersToolStripMenuItem
         '
         Me.SellersToolStripMenuItem.Name = "SellersToolStripMenuItem"
-        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 24)
+        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 26)
         Me.SellersToolStripMenuItem.Text = "&Sellers"
         '
         'ProductsToolStripMenuItem
         '
         Me.ProductsToolStripMenuItem.Name = "ProductsToolStripMenuItem"
-        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 24)
+        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 26)
         Me.ProductsToolStripMenuItem.Text = "&Products"
         '
         'Label1
@@ -108,6 +116,8 @@ Partial Class Form17
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.lblTotalUsers)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Location = New System.Drawing.Point(100, 116)
@@ -119,7 +129,7 @@ Partial Class Form17
         '
         Me.lblTotalUsers.AutoSize = True
         Me.lblTotalUsers.Font = New System.Drawing.Font("Maiandra GD", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotalUsers.Location = New System.Drawing.Point(52, 71)
+        Me.lblTotalUsers.Location = New System.Drawing.Point(69, 71)
         Me.lblTotalUsers.Name = "lblTotalUsers"
         Me.lblTotalUsers.Size = New System.Drawing.Size(57, 21)
         Me.lblTotalUsers.TabIndex = 1
@@ -128,15 +138,17 @@ Partial Class Form17
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(49, 51)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(71, 55)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(77, 16)
+        Me.Label2.Size = New System.Drawing.Size(58, 13)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Total Users"
         '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Location = New System.Drawing.Point(100, 304)
         Me.Panel4.Name = "Panel4"
@@ -146,7 +158,7 @@ Partial Class Form17
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(14, 11)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(161, 16)
@@ -156,15 +168,28 @@ Partial Class Form17
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel5.Controls.Add(Me.Label9)
         Me.Panel5.Location = New System.Drawing.Point(514, 304)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(369, 207)
         Me.Panel5.TabIndex = 6
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(12, 11)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(172, 16)
+        Me.Label9.TabIndex = 3
+        Me.Label9.Text = "Products Sold per Category"
+        '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.PictureBox4)
         Me.Panel2.Controls.Add(Me.Label7)
         Me.Panel2.Location = New System.Drawing.Point(723, 116)
         Me.Panel2.Name = "Panel2"
@@ -174,15 +199,18 @@ Partial Class Form17
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(53, 51)
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(68, 55)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(80, 32)
+        Me.Label7.Size = New System.Drawing.Size(63, 26)
         Me.Label7.TabIndex = 4
         Me.Label7.Text = "Pending" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Verifications"
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel3.Controls.Add(Me.PictureBox5)
         Me.Panel3.Controls.Add(Me.Label5)
         Me.Panel3.Controls.Add(Me.Label3)
         Me.Panel3.Location = New System.Drawing.Point(309, 116)
@@ -194,7 +222,7 @@ Partial Class Form17
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Maiandra GD", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(50, 71)
+        Me.Label5.Location = New System.Drawing.Point(73, 71)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(41, 21)
         Me.Label5.TabIndex = 2
@@ -203,15 +231,18 @@ Partial Class Form17
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(51, 51)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(74, 55)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(83, 16)
+        Me.Label3.Size = New System.Drawing.Size(63, 13)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Total Sellers"
         '
         'Panel6
         '
         Me.Panel6.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel6.Controls.Add(Me.PictureBox3)
         Me.Panel6.Controls.Add(Me.Label6)
         Me.Panel6.Controls.Add(Me.Label4)
         Me.Panel6.Location = New System.Drawing.Point(514, 116)
@@ -223,7 +254,7 @@ Partial Class Form17
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Maiandra GD", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(45, 67)
+        Me.Label6.Location = New System.Drawing.Point(69, 71)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(57, 21)
         Me.Label6.TabIndex = 3
@@ -232,21 +263,52 @@ Partial Class Form17
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(46, 51)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(69, 55)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(94, 16)
+        Me.Label4.Size = New System.Drawing.Size(73, 13)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Total Products"
         '
-        'Label9
+        'PictureBox3
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(12, 11)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(172, 16)
-        Me.Label9.TabIndex = 3
-        Me.Label9.Text = "Products Sold per Category"
+        Me.PictureBox3.Image = Global.omc_18.My.Resources.Resources.Your_paragraph_text__9_
+        Me.PictureBox3.Location = New System.Drawing.Point(15, 42)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(48, 50)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 4
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = Global.omc_18.My.Resources.Resources.Your_paragraph_text__10_
+        Me.PictureBox5.Location = New System.Drawing.Point(19, 42)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(48, 50)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox5.TabIndex = 6
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.omc_18.My.Resources.Resources.Your_paragraph_text__11_
+        Me.PictureBox4.Location = New System.Drawing.Point(23, 42)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(48, 50)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox4.TabIndex = 5
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.omc_18.My.Resources.Resources.Your_paragraph_text__12_
+        Me.PictureBox1.Location = New System.Drawing.Point(19, 42)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(46, 60)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'Form17
         '
@@ -281,6 +343,10 @@ Partial Class Form17
         Me.Panel3.PerformLayout()
         Me.Panel6.ResumeLayout(False)
         Me.Panel6.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -307,4 +373,8 @@ Partial Class Form17
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
 End Class

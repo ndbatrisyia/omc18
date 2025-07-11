@@ -620,5 +620,29 @@
   <ItemGroup>
     <None Include="Resources\Your paragraph text %284%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %2812%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
