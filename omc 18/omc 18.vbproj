@@ -233,6 +233,12 @@
     <EmbeddedResource Include="Admin\Form16.resx">
       <DependentUpon>Form16.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Form17.resx">
+      <DependentUpon>Form17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Form18.resx">
+      <DependentUpon>Form18.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\Form19.resx">
       <DependentUpon>Form19.vb</DependentUpon>
     </EmbeddedResource>
