@@ -28,7 +28,7 @@ Partial Class Form16
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(966, 544)
+        Me.ClientSize = New System.Drawing.Size(965, 545)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form16"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
