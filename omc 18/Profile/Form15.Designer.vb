@@ -37,7 +37,6 @@ Partial Class Form15
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -188,18 +187,6 @@ Partial Class Form15
         Me.Label5.TabIndex = 14
         Me.Label5.Text = "___________________________________________________"
         '
-        'Button5
-        '
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(172, 718)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(91, 88)
-        Me.Button5.TabIndex = 15
-        Me.Button5.Text = "Home"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
@@ -217,7 +204,6 @@ Partial Class Form15
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(440, 809)
         Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.PictureBox5)
@@ -259,6 +245,5 @@ Partial Class Form15
     Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents Button4 As Button
     Friend WithEvents Label5 As Label
-    Friend WithEvents Button5 As Button
     Friend WithEvents PictureBox6 As PictureBox
 End Class

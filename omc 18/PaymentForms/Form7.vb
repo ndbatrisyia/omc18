@@ -14,10 +14,10 @@
             .Columns(1).Name = "Item"
             .Columns(2).Name = "Amount"
             .Rows.Add("01", "Crochet bottle case", "RM 18")
-            .Rows.Add("01", "Tote bag", "RM 20")
-            .Rows.Add("01", "Crochet Flower", "RM 10")
-            .Rows.Add("03", "Bookmark", "RM 15")
-            .Rows.Add("02", "Beaded bracelet", "RM 12")
+            .Rows.Add("02", "Tote bag", "RM 20")
+            .Rows.Add("03", "Crochet Flower", "RM 10")
+            .Rows.Add("04", "Bookmark", "RM 15")
+            .Rows.Add("05", "Beaded bracelet", "RM 12")
             .ReadOnly = True
             .AllowUserToAddRows = False
             .RowHeadersVisible = False
