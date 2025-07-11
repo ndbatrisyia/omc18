@@ -64,7 +64,7 @@ Partial Class Form16
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ProductsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(965, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(965, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -259,7 +259,7 @@ Partial Class Form16
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Maiandra GD", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.LightSeaGreen
-        Me.Label4.Location = New System.Drawing.Point(51, 257)
+        Me.Label4.Location = New System.Drawing.Point(76, 267)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(166, 72)
         Me.Label4.TabIndex = 22
