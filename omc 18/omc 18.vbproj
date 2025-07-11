@@ -519,5 +519,8 @@
     <Folder Include="Admin\" />
     <Folder Include="Seller%27s Verification\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile icon purple.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
