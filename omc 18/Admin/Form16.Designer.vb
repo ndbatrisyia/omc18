@@ -28,6 +28,7 @@ Partial Class Form16
         Me.UsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SellersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -44,38 +45,51 @@ Partial Class Form16
         'AdminToolStripMenuItem
         '
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 26)
         Me.AdminToolStripMenuItem.Text = "&Admin"
         '
         'DashboardToolStripMenuItem
         '
         Me.DashboardToolStripMenuItem.Name = "DashboardToolStripMenuItem"
-        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 24)
+        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 26)
         Me.DashboardToolStripMenuItem.Text = "&Dashboard"
         '
         'UsersToolStripMenuItem
         '
         Me.UsersToolStripMenuItem.Name = "UsersToolStripMenuItem"
-        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
+        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 26)
         Me.UsersToolStripMenuItem.Text = "&Users"
         '
         'SellersToolStripMenuItem
         '
         Me.SellersToolStripMenuItem.Name = "SellersToolStripMenuItem"
-        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 24)
+        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 26)
         Me.SellersToolStripMenuItem.Text = "&Sellers"
         '
         'ProductsToolStripMenuItem
         '
         Me.ProductsToolStripMenuItem.Name = "ProductsToolStripMenuItem"
-        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 24)
+        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 26)
         Me.ProductsToolStripMenuItem.Text = "&Products"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Thistle
+        Me.Label1.Location = New System.Drawing.Point(238, 61)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(79, 27)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Admin"
         '
         'Form16
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(965, 545)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
@@ -95,4 +109,5 @@ Partial Class Form16
     Friend WithEvents UsersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SellersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ProductsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Label1 As Label
 End Class

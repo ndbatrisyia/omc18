@@ -23,4 +23,23 @@
         Form23.Show()
         Me.Hide()
     End Sub
+
+    Private Sub btnAll_Click(sender As Object, e As EventArgs) Handles btnAll.Click
+        Me.Show()
+    End Sub
+
+    Private Sub btnVerified_Click(sender As Object, e As EventArgs) Handles btnVerified.Click
+        Form20.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnPending_Click(sender As Object, e As EventArgs) Handles btnPending.Click
+        Form21.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnRejected_Click(sender As Object, e As EventArgs) Handles btnRejected.Click
+        Form22.Show()
+        Me.Hide()
+    End Sub
 End Class

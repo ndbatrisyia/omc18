@@ -28,6 +28,11 @@ Partial Class Form22
         Me.UsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SellersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btnPending = New System.Windows.Forms.Button()
+        Me.btnVerified = New System.Windows.Forms.Button()
+        Me.btnAll = New System.Windows.Forms.Button()
+        Me.btnRejected = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -37,7 +42,7 @@ Partial Class Form22
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ProductsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(965, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(965, 30)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -71,11 +76,71 @@ Partial Class Form22
         Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 24)
         Me.ProductsToolStripMenuItem.Text = "&Products"
         '
+        'btnPending
+        '
+        Me.btnPending.BackColor = System.Drawing.Color.White
+        Me.btnPending.ForeColor = System.Drawing.Color.Black
+        Me.btnPending.Location = New System.Drawing.Point(747, 72)
+        Me.btnPending.Name = "btnPending"
+        Me.btnPending.Size = New System.Drawing.Size(89, 29)
+        Me.btnPending.TabIndex = 12
+        Me.btnPending.Text = "Pending"
+        Me.btnPending.UseVisualStyleBackColor = False
+        '
+        'btnVerified
+        '
+        Me.btnVerified.BackColor = System.Drawing.Color.White
+        Me.btnVerified.ForeColor = System.Drawing.Color.Black
+        Me.btnVerified.Location = New System.Drawing.Point(661, 72)
+        Me.btnVerified.Name = "btnVerified"
+        Me.btnVerified.Size = New System.Drawing.Size(89, 29)
+        Me.btnVerified.TabIndex = 11
+        Me.btnVerified.Text = "Verified"
+        Me.btnVerified.UseVisualStyleBackColor = False
+        '
+        'btnAll
+        '
+        Me.btnAll.BackColor = System.Drawing.Color.White
+        Me.btnAll.ForeColor = System.Drawing.Color.Black
+        Me.btnAll.Location = New System.Drawing.Point(575, 72)
+        Me.btnAll.Name = "btnAll"
+        Me.btnAll.Size = New System.Drawing.Size(89, 29)
+        Me.btnAll.TabIndex = 10
+        Me.btnAll.Text = "All"
+        Me.btnAll.UseVisualStyleBackColor = False
+        '
+        'btnRejected
+        '
+        Me.btnRejected.BackColor = System.Drawing.Color.Black
+        Me.btnRejected.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnRejected.Location = New System.Drawing.Point(833, 72)
+        Me.btnRejected.Name = "btnRejected"
+        Me.btnRejected.Size = New System.Drawing.Size(89, 29)
+        Me.btnRejected.TabIndex = 9
+        Me.btnRejected.Text = "Rejected"
+        Me.btnRejected.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Thistle
+        Me.Label1.Location = New System.Drawing.Point(28, 69)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(72, 27)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "Sellers"
+        '
         'Form22
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(965, 545)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnPending)
+        Me.Controls.Add(Me.btnVerified)
+        Me.Controls.Add(Me.btnAll)
+        Me.Controls.Add(Me.btnRejected)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MainMenuStrip = Me.MenuStrip1
@@ -95,4 +160,9 @@ Partial Class Form22
     Friend WithEvents UsersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SellersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ProductsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents btnPending As Button
+    Friend WithEvents btnVerified As Button
+    Friend WithEvents btnAll As Button
+    Friend WithEvents btnRejected As Button
+    Friend WithEvents Label1 As Label
 End Class
