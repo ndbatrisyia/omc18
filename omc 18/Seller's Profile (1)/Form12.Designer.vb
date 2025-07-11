@@ -55,17 +55,18 @@ Partial Class Form12
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(440, 36)
+        Me.MenuStrip1.Size = New System.Drawing.Size(440, 24)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'lblUsername
         '
-        Me.lblUsername.AutoSize = True
-        Me.lblUsername.Location = New System.Drawing.Point(41, 159)
+        Me.lblUsername.Location = New System.Drawing.Point(24, 159)
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(0, 20)
+        Me.lblUsername.Size = New System.Drawing.Size(100, 23)
         Me.lblUsername.TabIndex = 3
+        Me.lblUsername.Text = "Name"
+        Me.lblUsername.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Form12
         '
