@@ -23,13 +23,10 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.lblForgotPassword = New System.Windows.Forms.Label()
@@ -37,11 +34,14 @@ Partial Class Form3
         Me.lblSignUp = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -57,17 +57,6 @@ Partial Class Form3
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(440, 232)
         Me.Panel1.TabIndex = 7
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.LavenderBlush
-        Me.PictureBox1.Image = Global.omc_18.My.Resources.Resources.pink_profile_icon_removebg_preview
-        Me.PictureBox1.Location = New System.Drawing.Point(68, 49)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(26, 41)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 13
-        Me.PictureBox1.TabStop = False
         '
         'txtPassword
         '
@@ -94,17 +83,6 @@ Partial Class Form3
         Me.TextBox5.Size = New System.Drawing.Size(271, 29)
         Me.TextBox5.TabIndex = 11
         Me.TextBox5.Text = "Username/Email address"
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.GhostWhite
-        Me.PictureBox2.Image = Global.omc_18.My.Resources.Resources.pink_key_removebg_preview
-        Me.PictureBox2.Location = New System.Drawing.Point(68, 139)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(26, 41)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 10
-        Me.PictureBox2.TabStop = False
         '
         'TextBox3
         '
@@ -133,17 +111,6 @@ Partial Class Form3
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(318, 41)
         Me.TextBox2.TabIndex = 4
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.LavenderBlush
-        Me.PictureBox3.Image = Global.omc_18.My.Resources.Resources.pink_profile_icon_removebg_preview
-        Me.PictureBox3.Location = New System.Drawing.Point(68, 49)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(26, 41)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox3.TabIndex = 7
-        Me.PictureBox3.TabStop = False
         '
         'Label1
         '
@@ -207,13 +174,46 @@ Partial Class Form3
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.omc_18.My.Resources.Resources.welcome_back_1_removebg_preview
-        Me.PictureBox5.Location = New System.Drawing.Point(178, -8)
+        Me.PictureBox5.Image = Global.omc_18.My.Resources.Resources.form4
+        Me.PictureBox5.Location = New System.Drawing.Point(92, -49)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(262, 348)
+        Me.PictureBox5.Size = New System.Drawing.Size(423, 417)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 17
         Me.PictureBox5.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.LavenderBlush
+        Me.PictureBox1.Image = Global.omc_18.My.Resources.Resources.pink_profile_icon_removebg_preview
+        Me.PictureBox1.Location = New System.Drawing.Point(68, 49)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(26, 41)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 13
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.GhostWhite
+        Me.PictureBox2.Image = Global.omc_18.My.Resources.Resources.pink_key_removebg_preview
+        Me.PictureBox2.Location = New System.Drawing.Point(68, 139)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(26, 41)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 10
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.LavenderBlush
+        Me.PictureBox3.Image = Global.omc_18.My.Resources.Resources.pink_profile_icon_removebg_preview
+        Me.PictureBox3.Location = New System.Drawing.Point(68, 49)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(26, 41)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox3.TabIndex = 7
+        Me.PictureBox3.TabStop = False
         '
         'Form3
         '
@@ -221,7 +221,6 @@ Partial Class Form3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(440, 809)
-        Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.lblSignUp)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblForgotPassword)
@@ -229,16 +228,18 @@ Partial Class Form3
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.PictureBox5)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form3"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
