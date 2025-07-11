@@ -617,5 +617,8 @@
   <ItemGroup>
     <None Include="Resources\form 3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your paragraph text %284%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
