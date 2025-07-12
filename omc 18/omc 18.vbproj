@@ -137,6 +137,42 @@
     <Compile Include="Admin\Form25.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Admin\Form26.Designer.vb">
+      <DependentUpon>Form26.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form26.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form27.Designer.vb">
+      <DependentUpon>Form27.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form27.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form28.Designer.vb">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form28.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form29.Designer.vb">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form30.Designer.vb">
+      <DependentUpon>Form30.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form30.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form31.Designer.vb">
+      <DependentUpon>Form31.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form31.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LogInForms\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
