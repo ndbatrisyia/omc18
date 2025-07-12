@@ -30,7 +30,7 @@ Partial Class Form23
         Me.ProductsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnOutofStock = New System.Windows.Forms.Button()
-        Me.btnInStock = New System.Windows.Forms.Button()
+        Me.btnAvailable = New System.Windows.Forms.Button()
         Me.btnAll = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -42,7 +42,7 @@ Partial Class Form23
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ProductsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(965, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(965, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -97,15 +97,15 @@ Partial Class Form23
         Me.btnOutofStock.Text = "Out of Stock"
         Me.btnOutofStock.UseVisualStyleBackColor = False
         '
-        'btnInStock
+        'btnAvailable
         '
-        Me.btnInStock.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnInStock.Location = New System.Drawing.Point(686, 72)
-        Me.btnInStock.Name = "btnInStock"
-        Me.btnInStock.Size = New System.Drawing.Size(89, 29)
-        Me.btnInStock.TabIndex = 10
-        Me.btnInStock.Text = "In Stock"
-        Me.btnInStock.UseVisualStyleBackColor = False
+        Me.btnAvailable.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnAvailable.Location = New System.Drawing.Point(686, 72)
+        Me.btnAvailable.Name = "btnAvailable"
+        Me.btnAvailable.Size = New System.Drawing.Size(89, 29)
+        Me.btnAvailable.TabIndex = 10
+        Me.btnAvailable.Text = "Available"
+        Me.btnAvailable.UseVisualStyleBackColor = False
         '
         'btnAll
         '
@@ -125,7 +125,7 @@ Partial Class Form23
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(965, 545)
         Me.Controls.Add(Me.btnOutofStock)
-        Me.Controls.Add(Me.btnInStock)
+        Me.Controls.Add(Me.btnAvailable)
         Me.Controls.Add(Me.btnAll)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -149,6 +149,6 @@ Partial Class Form23
     Friend WithEvents ProductsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label1 As Label
     Friend WithEvents btnOutofStock As Button
-    Friend WithEvents btnInStock As Button
+    Friend WithEvents btnAvailable As Button
     Friend WithEvents btnAll As Button
 End Class

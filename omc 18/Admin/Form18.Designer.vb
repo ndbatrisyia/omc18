@@ -27,6 +27,7 @@ Partial Class Form18
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DashboardToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -40,6 +41,7 @@ Partial Class Form18
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Colum6 = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -51,38 +53,38 @@ Partial Class Form18
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ProductsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(965, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(965, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'AdminToolStripMenuItem
         '
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 26)
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
         Me.AdminToolStripMenuItem.Text = "&Admin"
         '
         'DashboardToolStripMenuItem
         '
         Me.DashboardToolStripMenuItem.Name = "DashboardToolStripMenuItem"
-        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 26)
+        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 24)
         Me.DashboardToolStripMenuItem.Text = "&Dashboard"
         '
         'UsersToolStripMenuItem
         '
         Me.UsersToolStripMenuItem.Name = "UsersToolStripMenuItem"
-        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 26)
+        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
         Me.UsersToolStripMenuItem.Text = "&Users"
         '
         'SellersToolStripMenuItem
         '
         Me.SellersToolStripMenuItem.Name = "SellersToolStripMenuItem"
-        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 26)
+        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 24)
         Me.SellersToolStripMenuItem.Text = "&Sellers"
         '
         'ProductsToolStripMenuItem
         '
         Me.ProductsToolStripMenuItem.Name = "ProductsToolStripMenuItem"
-        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 26)
+        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 24)
         Me.ProductsToolStripMenuItem.Text = "&Products"
         '
         'Label1
@@ -98,8 +100,9 @@ Partial Class Form18
         '
         'DataGridView1
         '
+        Me.DataGridView1.AllowUserToOrderColumns = True
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Colum6})
         Me.DataGridView1.Location = New System.Drawing.Point(55, 139)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
@@ -135,7 +138,7 @@ Partial Class Form18
         Me.Column2.HeaderText = "Name"
         Me.Column2.MinimumWidth = 6
         Me.Column2.Name = "Column2"
-        Me.Column2.Width = 220
+        Me.Column2.Width = 180
         '
         'Column3
         '
@@ -162,10 +165,10 @@ Partial Class Form18
         DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Thistle
         DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Purple
         Me.Column4.DefaultCellStyle = DataGridViewCellStyle4
-        Me.Column4.HeaderText = "Phone Number"
+        Me.Column4.HeaderText = "Password"
         Me.Column4.MinimumWidth = 6
         Me.Column4.Name = "Column4"
-        Me.Column4.Width = 115
+        Me.Column4.Width = 110
         '
         'Column5
         '
@@ -177,10 +180,28 @@ Partial Class Form18
         DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Thistle
         DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Purple
         Me.Column5.DefaultCellStyle = DataGridViewCellStyle5
-        Me.Column5.HeaderText = "Sellers/Buyers"
+        Me.Column5.HeaderText = "ID"
         Me.Column5.MinimumWidth = 6
         Me.Column5.Name = "Column5"
-        Me.Column5.Width = 95
+        Me.Column5.Width = 60
+        '
+        'Colum6
+        '
+        Me.Colum6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Thistle
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Purple
+        Me.Colum6.DefaultCellStyle = DataGridViewCellStyle6
+        Me.Colum6.HeaderText = "Sellers"
+        Me.Colum6.Items.AddRange(New Object() {"No", "Yes"})
+        Me.Colum6.MinimumWidth = 6
+        Me.Colum6.Name = "Colum6"
+        Me.Colum6.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Colum6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.Colum6.Width = 78
         '
         'Form18
         '
@@ -217,4 +238,5 @@ Partial Class Form18
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents Colum6 As DataGridViewComboBoxColumn
 End Class

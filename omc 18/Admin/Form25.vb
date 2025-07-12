@@ -28,7 +28,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub btnInStock_Click(sender As Object, e As EventArgs) Handles btnInStock.Click
+    Private Sub btnInStock_Click(sender As Object, e As EventArgs) Handles btnAvailable.Click
         Me.Show()
     End Sub
 

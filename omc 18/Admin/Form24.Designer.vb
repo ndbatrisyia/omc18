@@ -29,7 +29,7 @@ Partial Class Form24
         Me.SellersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.btnOutofStock = New System.Windows.Forms.Button()
-        Me.btnInStock = New System.Windows.Forms.Button()
+        Me.btnAvailable = New System.Windows.Forms.Button()
         Me.btnAll = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
@@ -49,31 +49,31 @@ Partial Class Form24
         'AdminToolStripMenuItem
         '
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(67, 26)
         Me.AdminToolStripMenuItem.Text = "&Admin"
         '
         'DashboardToolStripMenuItem
         '
         Me.DashboardToolStripMenuItem.Name = "DashboardToolStripMenuItem"
-        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 24)
+        Me.DashboardToolStripMenuItem.Size = New System.Drawing.Size(96, 26)
         Me.DashboardToolStripMenuItem.Text = "&Dashboard"
         '
         'UsersToolStripMenuItem
         '
         Me.UsersToolStripMenuItem.Name = "UsersToolStripMenuItem"
-        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 24)
+        Me.UsersToolStripMenuItem.Size = New System.Drawing.Size(58, 26)
         Me.UsersToolStripMenuItem.Text = "&Users"
         '
         'SellersToolStripMenuItem
         '
         Me.SellersToolStripMenuItem.Name = "SellersToolStripMenuItem"
-        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 24)
+        Me.SellersToolStripMenuItem.Size = New System.Drawing.Size(66, 26)
         Me.SellersToolStripMenuItem.Text = "&Sellers"
         '
         'ProductsToolStripMenuItem
         '
         Me.ProductsToolStripMenuItem.Name = "ProductsToolStripMenuItem"
-        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 24)
+        Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 26)
         Me.ProductsToolStripMenuItem.Text = "&Products"
         '
         'btnOutofStock
@@ -87,16 +87,16 @@ Partial Class Form24
         Me.btnOutofStock.Text = "Out of Stock"
         Me.btnOutofStock.UseVisualStyleBackColor = False
         '
-        'btnInStock
+        'btnAvailable
         '
-        Me.btnInStock.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnInStock.ForeColor = System.Drawing.Color.Black
-        Me.btnInStock.Location = New System.Drawing.Point(686, 72)
-        Me.btnInStock.Name = "btnInStock"
-        Me.btnInStock.Size = New System.Drawing.Size(89, 29)
-        Me.btnInStock.TabIndex = 14
-        Me.btnInStock.Text = "In Stock"
-        Me.btnInStock.UseVisualStyleBackColor = False
+        Me.btnAvailable.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnAvailable.ForeColor = System.Drawing.Color.Black
+        Me.btnAvailable.Location = New System.Drawing.Point(686, 72)
+        Me.btnAvailable.Name = "btnAvailable"
+        Me.btnAvailable.Size = New System.Drawing.Size(89, 29)
+        Me.btnAvailable.TabIndex = 14
+        Me.btnAvailable.Text = "Available"
+        Me.btnAvailable.UseVisualStyleBackColor = False
         '
         'btnAll
         '
@@ -127,7 +127,7 @@ Partial Class Form24
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(965, 545)
         Me.Controls.Add(Me.btnOutofStock)
-        Me.Controls.Add(Me.btnInStock)
+        Me.Controls.Add(Me.btnAvailable)
         Me.Controls.Add(Me.btnAll)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -150,7 +150,7 @@ Partial Class Form24
     Friend WithEvents SellersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ProductsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents btnOutofStock As Button
-    Friend WithEvents btnInStock As Button
+    Friend WithEvents btnAvailable As Button
     Friend WithEvents btnAll As Button
     Friend WithEvents Label1 As Label
 End Class
