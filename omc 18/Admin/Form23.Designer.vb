@@ -32,6 +32,8 @@ Partial Class Form23
         Me.btnOutofStock = New System.Windows.Forms.Button()
         Me.btnAvailable = New System.Windows.Forms.Button()
         Me.btnAll = New System.Windows.Forms.Button()
+        Me.OrdersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PaymentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,7 +41,7 @@ Partial Class Form23
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.Thistle
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ProductsToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ProductsToolStripMenuItem, Me.OrdersToolStripMenuItem, Me.PaymentsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(965, 28)
@@ -118,6 +120,18 @@ Partial Class Form23
         Me.btnAll.Text = "All"
         Me.btnAll.UseVisualStyleBackColor = False
         '
+        'OrdersToolStripMenuItem
+        '
+        Me.OrdersToolStripMenuItem.Name = "OrdersToolStripMenuItem"
+        Me.OrdersToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
+        Me.OrdersToolStripMenuItem.Text = "&Orders"
+        '
+        'PaymentsToolStripMenuItem
+        '
+        Me.PaymentsToolStripMenuItem.Name = "PaymentsToolStripMenuItem"
+        Me.PaymentsToolStripMenuItem.Size = New System.Drawing.Size(85, 24)
+        Me.PaymentsToolStripMenuItem.Text = "Pa&yments"
+        '
         'Form23
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -151,4 +165,6 @@ Partial Class Form23
     Friend WithEvents btnOutofStock As Button
     Friend WithEvents btnAvailable As Button
     Friend WithEvents btnAll As Button
+    Friend WithEvents OrdersToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PaymentsToolStripMenuItem As ToolStripMenuItem
 End Class

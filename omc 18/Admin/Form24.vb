@@ -36,4 +36,13 @@
     Private Sub btnOutofStock_Click(sender As Object, e As EventArgs) Handles btnOutofStock.Click
         Me.Show()
     End Sub
+    Private Sub OrdersToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OrdersToolStripMenuItem.Click
+        Form26.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub PaymentsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PaymentsToolStripMenuItem.Click
+        Form31.Show()
+        Me.Hide()
+    End Sub
 End Class
