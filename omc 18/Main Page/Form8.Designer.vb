@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form8
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class Form8
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form8))
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -58,6 +59,19 @@ Partial Class Form8
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.DecoratedAltoidToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrochetToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HandcraftedPotteryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PosterDesignToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClothRedesignToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BookmarkToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EmbroideryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BeadedBraceletToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BagToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KeychainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PaintingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.JewelleryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel6.SuspendLayout()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel5.SuspendLayout()
@@ -75,6 +89,7 @@ Partial Class Form8
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel6
@@ -446,6 +461,85 @@ Partial Class Form8
         Me.PictureBox1.TabIndex = 8
         Me.PictureBox1.TabStop = False
         '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DecoratedAltoidToolStripMenuItem, Me.CrochetToolStripMenuItem, Me.HandcraftedPotteryToolStripMenuItem, Me.PosterDesignToolStripMenuItem, Me.ClothRedesignToolStripMenuItem, Me.BookmarkToolStripMenuItem, Me.EmbroideryToolStripMenuItem, Me.BeadedBraceletToolStripMenuItem, Me.BagToolStripMenuItem, Me.KeychainToolStripMenuItem, Me.PaintingToolStripMenuItem, Me.JewelleryToolStripMenuItem})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(246, 388)
+        '
+        'DecoratedAltoidToolStripMenuItem
+        '
+        Me.DecoratedAltoidToolStripMenuItem.Name = "DecoratedAltoidToolStripMenuItem"
+        Me.DecoratedAltoidToolStripMenuItem.Size = New System.Drawing.Size(240, 32)
+        Me.DecoratedAltoidToolStripMenuItem.Text = "Decorated altoid"
+        '
+        'CrochetToolStripMenuItem
+        '
+        Me.CrochetToolStripMenuItem.Name = "CrochetToolStripMenuItem"
+        Me.CrochetToolStripMenuItem.Size = New System.Drawing.Size(240, 32)
+        Me.CrochetToolStripMenuItem.Text = "Crochet"
+        '
+        'HandcraftedPotteryToolStripMenuItem
+        '
+        Me.HandcraftedPotteryToolStripMenuItem.Name = "HandcraftedPotteryToolStripMenuItem"
+        Me.HandcraftedPotteryToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.HandcraftedPotteryToolStripMenuItem.Text = "Handcrafted pottery"
+        '
+        'PosterDesignToolStripMenuItem
+        '
+        Me.PosterDesignToolStripMenuItem.Name = "PosterDesignToolStripMenuItem"
+        Me.PosterDesignToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.PosterDesignToolStripMenuItem.Text = "Poster design"
+        '
+        'ClothRedesignToolStripMenuItem
+        '
+        Me.ClothRedesignToolStripMenuItem.Name = "ClothRedesignToolStripMenuItem"
+        Me.ClothRedesignToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.ClothRedesignToolStripMenuItem.Text = "Cloth redesign"
+        '
+        'BookmarkToolStripMenuItem
+        '
+        Me.BookmarkToolStripMenuItem.Name = "BookmarkToolStripMenuItem"
+        Me.BookmarkToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.BookmarkToolStripMenuItem.Text = "Bookmark"
+        '
+        'EmbroideryToolStripMenuItem
+        '
+        Me.EmbroideryToolStripMenuItem.Name = "EmbroideryToolStripMenuItem"
+        Me.EmbroideryToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.EmbroideryToolStripMenuItem.Text = "Embroidery"
+        '
+        'BeadedBraceletToolStripMenuItem
+        '
+        Me.BeadedBraceletToolStripMenuItem.Name = "BeadedBraceletToolStripMenuItem"
+        Me.BeadedBraceletToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.BeadedBraceletToolStripMenuItem.Text = "Beaded bracelet"
+        '
+        'BagToolStripMenuItem
+        '
+        Me.BagToolStripMenuItem.Name = "BagToolStripMenuItem"
+        Me.BagToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.BagToolStripMenuItem.Text = "Bag"
+        '
+        'KeychainToolStripMenuItem
+        '
+        Me.KeychainToolStripMenuItem.Name = "KeychainToolStripMenuItem"
+        Me.KeychainToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.KeychainToolStripMenuItem.Text = "Keychain"
+        '
+        'PaintingToolStripMenuItem
+        '
+        Me.PaintingToolStripMenuItem.Name = "PaintingToolStripMenuItem"
+        Me.PaintingToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.PaintingToolStripMenuItem.Text = "Painting"
+        '
+        'JewelleryToolStripMenuItem
+        '
+        Me.JewelleryToolStripMenuItem.Name = "JewelleryToolStripMenuItem"
+        Me.JewelleryToolStripMenuItem.Size = New System.Drawing.Size(245, 32)
+        Me.JewelleryToolStripMenuItem.Text = "Jewellery"
+        '
         'Form8
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -489,6 +583,7 @@ Partial Class Form8
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -528,4 +623,17 @@ Partial Class Form8
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents DecoratedAltoidToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CrochetToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents HandcraftedPotteryToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PosterDesignToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ClothRedesignToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BookmarkToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EmbroideryToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BeadedBraceletToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BagToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents KeychainToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PaintingToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents JewelleryToolStripMenuItem As ToolStripMenuItem
 End Class
