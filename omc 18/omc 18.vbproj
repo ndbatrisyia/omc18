@@ -216,6 +216,12 @@
     <Compile Include="Main Page\Form32.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Notification\Form33.Designer.vb">
+      <DependentUpon>Form33.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notification\Form33.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PaymentForms\Form5.Designer.vb">
       <DependentUpon>Form5.vb</DependentUpon>
     </Compile>
@@ -352,6 +358,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main Page\Form32.resx">
       <DependentUpon>Form32.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification\Form33.resx">
+      <DependentUpon>Form33.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PaymentForms\Form5.resx">
       <DependentUpon>Form5.vb</DependentUpon>
