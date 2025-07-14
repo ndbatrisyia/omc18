@@ -182,9 +182,9 @@ Partial Class Form8
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(80, 59)
+        Me.PictureBox4.Location = New System.Drawing.Point(71, 50)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(32, 31)
+        Me.PictureBox4.Size = New System.Drawing.Size(46, 49)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 24
         Me.PictureBox4.TabStop = False
@@ -203,12 +203,12 @@ Partial Class Form8
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(462, 865)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.PictureBox4)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form8"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
