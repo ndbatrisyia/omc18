@@ -43,4 +43,13 @@
     Private Sub PictureBox14_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Panel2_Paint_1(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+        Form32.Show()
+        Me.Hide()
+    End Sub
 End Class
