@@ -32,4 +32,5 @@
     Private Sub PaymentsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PaymentsToolStripMenuItem.Click
         Me.Show()
     End Sub
+
 End Class

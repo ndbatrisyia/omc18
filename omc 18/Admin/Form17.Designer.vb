@@ -70,7 +70,7 @@ Partial Class Form17
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AdminToolStripMenuItem, Me.DashboardToolStripMenuItem, Me.UsersToolStripMenuItem, Me.SellersToolStripMenuItem, Me.ProductsToolStripMenuItem, Me.OrdersToolStripMenuItem, Me.PaymentsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(965, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(965, 30)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -120,7 +120,7 @@ Partial Class Form17
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Thistle
+        Me.Label1.ForeColor = System.Drawing.Color.LightSeaGreen
         Me.Label1.Location = New System.Drawing.Point(28, 69)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(115, 27)
@@ -129,7 +129,7 @@ Partial Class Form17
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Thistle
+        Me.Panel1.BackColor = System.Drawing.Color.LemonChiffon
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.lblTotalUsers)
@@ -171,7 +171,7 @@ Partial Class Form17
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.Thistle
+        Me.Panel4.BackColor = System.Drawing.Color.PeachPuff
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Location = New System.Drawing.Point(100, 304)
@@ -191,7 +191,7 @@ Partial Class Form17
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.Thistle
+        Me.Panel5.BackColor = System.Drawing.Color.PeachPuff
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel5.Controls.Add(Me.Label9)
         Me.Panel5.Location = New System.Drawing.Point(514, 304)
@@ -211,7 +211,7 @@ Partial Class Form17
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.Thistle
+        Me.Panel2.BackColor = System.Drawing.Color.LemonChiffon
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel2.Controls.Add(Me.PictureBox4)
         Me.Panel2.Controls.Add(Me.Label7)
@@ -242,7 +242,7 @@ Partial Class Form17
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.Thistle
+        Me.Panel3.BackColor = System.Drawing.Color.LemonChiffon
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel3.Controls.Add(Me.PictureBox5)
         Me.Panel3.Controls.Add(Me.Label5)
@@ -284,7 +284,7 @@ Partial Class Form17
         '
         'Panel6
         '
-        Me.Panel6.BackColor = System.Drawing.Color.Thistle
+        Me.Panel6.BackColor = System.Drawing.Color.LemonChiffon
         Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel6.Controls.Add(Me.PictureBox3)
         Me.Panel6.Controls.Add(Me.Label6)
