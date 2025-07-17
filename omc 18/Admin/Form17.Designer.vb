@@ -182,10 +182,10 @@ Partial Class Form17
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(16, 11)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(161, 16)
+        Me.Label8.Size = New System.Drawing.Size(185, 16)
         Me.Label8.TabIndex = 2
         Me.Label8.Text = "New Users (Last 30 Days)"
         '
@@ -202,10 +202,10 @@ Partial Class Form17
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(12, 11)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(172, 16)
+        Me.Label9.Size = New System.Drawing.Size(198, 16)
         Me.Label9.TabIndex = 3
         Me.Label9.Text = "Products Sold per Category"
         '
