@@ -34,15 +34,12 @@ Partial Class Form15
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -117,7 +114,7 @@ Partial Class Form15
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(42, 324)
+        Me.PictureBox3.Location = New System.Drawing.Point(108, 324)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(45, 43)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -128,9 +125,9 @@ Partial Class Form15
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 373)
+        Me.Button2.Location = New System.Drawing.Point(61, 373)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(115, 36)
+        Me.Button2.Size = New System.Drawing.Size(138, 36)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "My purchase"
         Me.Button2.UseVisualStyleBackColor = True
@@ -139,7 +136,7 @@ Partial Class Form15
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(197, 324)
+        Me.PictureBox4.Location = New System.Drawing.Point(288, 324)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(45, 43)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -150,33 +147,12 @@ Partial Class Form15
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(148, 373)
+        Me.Button3.Location = New System.Drawing.Point(232, 373)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(149, 36)
         Me.Button3.TabIndex = 11
         Me.Button3.Text = "Recently viewed"
         Me.Button3.UseVisualStyleBackColor = True
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(349, 324)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(45, 43)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 12
-        Me.PictureBox5.TabStop = False
-        '
-        'Button4
-        '
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(313, 373)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(115, 36)
-        Me.Button4.TabIndex = 13
-        Me.Button4.Text = "Rate"
-        Me.Button4.UseVisualStyleBackColor = True
         '
         'Label5
         '
@@ -205,8 +181,6 @@ Partial Class Form15
         Me.ClientSize = New System.Drawing.Size(462, 865)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Button2)
@@ -225,7 +199,6 @@ Partial Class Form15
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -243,8 +216,6 @@ Partial Class Form15
     Friend WithEvents Button2 As Button
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Button3 As Button
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents Button4 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox6 As PictureBox
 End Class
