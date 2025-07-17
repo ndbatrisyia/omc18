@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form17
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form17
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -171,7 +171,7 @@ Partial Class Form17
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.PeachPuff
+        Me.Panel4.BackColor = System.Drawing.Color.LavenderBlush
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Location = New System.Drawing.Point(100, 304)
@@ -183,7 +183,7 @@ Partial Class Form17
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(14, 11)
+        Me.Label8.Location = New System.Drawing.Point(16, 11)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(161, 16)
         Me.Label8.TabIndex = 2
@@ -191,7 +191,7 @@ Partial Class Form17
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.PeachPuff
+        Me.Panel5.BackColor = System.Drawing.Color.LavenderBlush
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel5.Controls.Add(Me.Label9)
         Me.Panel5.Location = New System.Drawing.Point(514, 304)
