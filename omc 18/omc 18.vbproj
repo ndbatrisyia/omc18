@@ -6,7 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9643A610-7E97-4977-AF5E-F66E5663343A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
+<<<<<<< HEAD
     <StartupObject>omc_18.Form4</StartupObject>
+=======
+    <StartupObject>omc_18.Form16</StartupObject>
+>>>>>>> e0e97d8094c13248568415b1b81c314136f50376
     <RootNamespace>omc_18</RootNamespace>
     <AssemblyName>omc 18</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -171,6 +175,12 @@
       <DependentUpon>Form31.vb</DependentUpon>
     </Compile>
     <Compile Include="Admin\Form31.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Form36.Designer.vb">
+      <DependentUpon>Form36.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form36.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LogInForms\Form1.vb">
@@ -349,6 +359,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Form31.resx">
       <DependentUpon>Form31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Form36.resx">
+      <DependentUpon>Form36.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogInForms\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
