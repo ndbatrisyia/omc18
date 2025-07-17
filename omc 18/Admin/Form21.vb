@@ -50,4 +50,8 @@
         Form31.Show()
         Me.Hide()
     End Sub
+
+    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
+        Me.Close()
+    End Sub
 End Class
