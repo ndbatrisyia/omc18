@@ -237,6 +237,7 @@ Partial Class Form28
         'btnRejected
         '
         Me.btnRejected.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnRejected.ForeColor = System.Drawing.Color.Black
         Me.btnRejected.Location = New System.Drawing.Point(747, 72)
         Me.btnRejected.Name = "btnRejected"
         Me.btnRejected.Size = New System.Drawing.Size(89, 29)
@@ -269,6 +270,7 @@ Partial Class Form28
         'btnCompleted
         '
         Me.btnCompleted.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnCompleted.ForeColor = System.Drawing.Color.Black
         Me.btnCompleted.Location = New System.Drawing.Point(833, 72)
         Me.btnCompleted.Name = "btnCompleted"
         Me.btnCompleted.Size = New System.Drawing.Size(89, 29)
@@ -280,7 +282,7 @@ Partial Class Form28
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Thistle
+        Me.Label1.ForeColor = System.Drawing.Color.LightSeaGreen
         Me.Label1.Location = New System.Drawing.Point(28, 69)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(85, 27)
@@ -354,6 +356,7 @@ Partial Class Form28
         Me.Controls.Add(Me.btnCompleted)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.ForeColor = System.Drawing.Color.LightSeaGreen
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form28"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
