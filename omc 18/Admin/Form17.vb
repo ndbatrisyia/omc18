@@ -44,8 +44,4 @@
     Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
         Me.Close()
     End Sub
-
-    Private Sub Form17_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class
