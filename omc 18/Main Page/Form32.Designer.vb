@@ -26,10 +26,10 @@ Partial Class Form32
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,6 +66,16 @@ Partial Class Form32
         Me.Label3.Text = "A cute and quirky keychain featuring a sliced apple, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "mini olive and retro malk " &
     "carton. Made from durable resin, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "perfect for bags, keys and gifts!"
         '
+        'Button1
+        '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Location = New System.Drawing.Point(144, 808)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(244, 45)
+        Me.Button1.TabIndex = 7
+        Me.Button1.Text = "Add to cart"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
@@ -80,7 +90,7 @@ Partial Class Form32
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-9, 48)
+        Me.PictureBox1.Location = New System.Drawing.Point(-13, 46)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(478, 507)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -91,22 +101,12 @@ Partial Class Form32
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(414, 2)
+        Me.PictureBox2.Location = New System.Drawing.Point(393, -14)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(45, 50)
+        Me.PictureBox2.Size = New System.Drawing.Size(72, 74)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 2
         Me.PictureBox2.TabStop = False
-        '
-        'Button1
-        '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(144, 808)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(244, 45)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "Add to cart"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form32
         '
