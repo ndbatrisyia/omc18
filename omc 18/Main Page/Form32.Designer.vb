@@ -26,7 +26,6 @@ Partial Class Form32
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -67,15 +66,6 @@ Partial Class Form32
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "A cute and quirky keychain featuring a sliced apple, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "mini olive and retro malk " &
     "carton. Made from durable resin, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "perfect for bags, keys and gifts!"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(14, 749)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(111, 20)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "Rating | 3 sold"
         '
         'PictureBox3
         '
@@ -138,7 +128,6 @@ Partial Class Form32
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
@@ -160,7 +149,6 @@ Partial Class Form32
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
