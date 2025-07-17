@@ -51,7 +51,7 @@ Partial Class Form15
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(0, -3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(440, 113)
+        Me.PictureBox1.Size = New System.Drawing.Size(464, 113)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -202,7 +202,7 @@ Partial Class Form15
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(440, 809)
+        Me.ClientSize = New System.Drawing.Size(462, 865)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button4)
@@ -218,6 +218,7 @@ Partial Class Form15
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form15"
         Me.Text = "Form15"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
