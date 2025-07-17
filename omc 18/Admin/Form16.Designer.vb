@@ -45,6 +45,7 @@ Partial Class Form16
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,6 +58,7 @@ Partial Class Form16
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -279,12 +281,24 @@ Partial Class Form16
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
+        'PictureBox9
+        '
+        Me.PictureBox9.BackColor = System.Drawing.Color.Thistle
+        Me.PictureBox9.Image = Global.omc_18.My.Resources.Resources.Untitled_design__26_
+        Me.PictureBox9.Location = New System.Drawing.Point(934, 9)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(19, 16)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox9.TabIndex = 23
+        Me.PictureBox9.TabStop = False
+        '
         'Form16
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(965, 545)
+        Me.Controls.Add(Me.PictureBox9)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.PictureBox10)
@@ -319,6 +333,7 @@ Partial Class Form16
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -347,4 +362,5 @@ Partial Class Form16
     Private WithEvents Label4 As Label
     Friend WithEvents OrdersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PaymentsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox9 As PictureBox
 End Class

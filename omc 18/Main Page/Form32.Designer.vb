@@ -39,9 +39,9 @@ Partial Class Form32
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 580)
+        Me.Label1.Location = New System.Drawing.Point(11, 464)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(267, 26)
+        Me.Label1.Size = New System.Drawing.Size(224, 22)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Mini Fruity Milky Keychain"
         '
@@ -50,18 +50,18 @@ Partial Class Form32
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Fuchsia
-        Me.Label2.Location = New System.Drawing.Point(13, 619)
+        Me.Label2.Location = New System.Drawing.Point(12, 495)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(92, 25)
+        Me.Label2.Size = New System.Drawing.Size(78, 20)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "RM 6.90"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 661)
+        Me.Label3.Location = New System.Drawing.Point(11, 529)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(413, 60)
+        Me.Label3.Size = New System.Drawing.Size(348, 48)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "A cute and quirky keychain featuring a sliced apple, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "mini olive and retro malk " &
     "carton. Made from durable resin, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "perfect for bags, keys and gifts!"
@@ -69,9 +69,10 @@ Partial Class Form32
         'Button1
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(144, 808)
+        Me.Button1.Location = New System.Drawing.Point(128, 646)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(244, 45)
+        Me.Button1.Size = New System.Drawing.Size(217, 36)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "Add to cart"
         Me.Button1.UseVisualStyleBackColor = True
@@ -80,9 +81,10 @@ Partial Class Form32
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(46, 791)
+        Me.PictureBox3.Location = New System.Drawing.Point(41, 633)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(59, 62)
+        Me.PictureBox3.Size = New System.Drawing.Size(52, 50)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 6
         Me.PictureBox3.TabStop = False
@@ -90,9 +92,10 @@ Partial Class Form32
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-13, 46)
+        Me.PictureBox1.Location = New System.Drawing.Point(-12, 37)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(478, 507)
+        Me.PictureBox1.Size = New System.Drawing.Size(425, 406)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -101,19 +104,20 @@ Partial Class Form32
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(393, -14)
+        Me.PictureBox2.Location = New System.Drawing.Point(349, -11)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(72, 74)
+        Me.PictureBox2.Size = New System.Drawing.Size(64, 59)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 2
         Me.PictureBox2.TabStop = False
         '
         'Form32
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(462, 865)
+        Me.ClientSize = New System.Drawing.Size(411, 692)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.Label3)
@@ -122,6 +126,7 @@ Partial Class Form32
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form32"
         Me.Text = "Form32"
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
