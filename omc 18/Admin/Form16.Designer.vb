@@ -28,6 +28,8 @@ Partial Class Form16
         Me.UsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SellersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PaymentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -43,8 +45,6 @@ Partial Class Form16
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.OrdersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PaymentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -99,6 +99,18 @@ Partial Class Form16
         Me.ProductsToolStripMenuItem.Name = "ProductsToolStripMenuItem"
         Me.ProductsToolStripMenuItem.Size = New System.Drawing.Size(80, 24)
         Me.ProductsToolStripMenuItem.Text = "&Products"
+        '
+        'OrdersToolStripMenuItem
+        '
+        Me.OrdersToolStripMenuItem.Name = "OrdersToolStripMenuItem"
+        Me.OrdersToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
+        Me.OrdersToolStripMenuItem.Text = "&Orders"
+        '
+        'PaymentsToolStripMenuItem
+        '
+        Me.PaymentsToolStripMenuItem.Name = "PaymentsToolStripMenuItem"
+        Me.PaymentsToolStripMenuItem.Size = New System.Drawing.Size(85, 24)
+        Me.PaymentsToolStripMenuItem.Text = "Pa&yments"
         '
         'Label1
         '
@@ -260,24 +272,12 @@ Partial Class Form16
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.omc_18.My.Resources.Resources.Your_paragraph_text__4_
-        Me.PictureBox1.Location = New System.Drawing.Point(214, 174)
+        Me.PictureBox1.Location = New System.Drawing.Point(248, 177)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(501, 351)
+        Me.PictureBox1.Size = New System.Drawing.Size(407, 334)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
-        '
-        'OrdersToolStripMenuItem
-        '
-        Me.OrdersToolStripMenuItem.Name = "OrdersToolStripMenuItem"
-        Me.OrdersToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
-        Me.OrdersToolStripMenuItem.Text = "&Orders"
-        '
-        'PaymentsToolStripMenuItem
-        '
-        Me.PaymentsToolStripMenuItem.Name = "PaymentsToolStripMenuItem"
-        Me.PaymentsToolStripMenuItem.Size = New System.Drawing.Size(85, 24)
-        Me.PaymentsToolStripMenuItem.Text = "Pa&yments"
         '
         'Form16
         '

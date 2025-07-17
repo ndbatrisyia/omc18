@@ -129,7 +129,7 @@ Partial Class Form17
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Plum
+        Me.Panel1.BackColor = System.Drawing.Color.Thistle
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.lblTotalUsers)
@@ -171,7 +171,7 @@ Partial Class Form17
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.Color.Plum
+        Me.Panel4.BackColor = System.Drawing.Color.Thistle
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Location = New System.Drawing.Point(100, 304)
@@ -191,7 +191,7 @@ Partial Class Form17
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.Plum
+        Me.Panel5.BackColor = System.Drawing.Color.Thistle
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel5.Controls.Add(Me.Label9)
         Me.Panel5.Location = New System.Drawing.Point(514, 304)
@@ -211,7 +211,7 @@ Partial Class Form17
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.Plum
+        Me.Panel2.BackColor = System.Drawing.Color.Thistle
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel2.Controls.Add(Me.PictureBox4)
         Me.Panel2.Controls.Add(Me.Label7)
@@ -242,7 +242,7 @@ Partial Class Form17
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.Plum
+        Me.Panel3.BackColor = System.Drawing.Color.Thistle
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel3.Controls.Add(Me.PictureBox5)
         Me.Panel3.Controls.Add(Me.Label5)
@@ -284,7 +284,7 @@ Partial Class Form17
         '
         'Panel6
         '
-        Me.Panel6.BackColor = System.Drawing.Color.Plum
+        Me.Panel6.BackColor = System.Drawing.Color.Thistle
         Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel6.Controls.Add(Me.PictureBox3)
         Me.Panel6.Controls.Add(Me.Label6)
