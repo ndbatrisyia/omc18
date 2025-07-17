@@ -173,6 +173,12 @@
     <Compile Include="Admin\Form31.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Admin\Form36.Designer.vb">
+      <DependentUpon>Form36.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Form36.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LogInForms\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -349,6 +355,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Form31.resx">
       <DependentUpon>Form31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Form36.resx">
+      <DependentUpon>Form36.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogInForms\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
